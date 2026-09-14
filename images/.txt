@@ -1,0 +1,2 @@
+find . -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) \
+-exec magick "{}" -font "/System/Library/Fonts/Supplemental/Arial.ttf" -gravity center -pointsize 50 -fill "rgba(255,255,255,0.35)" -annotate +0+0 " deltaaa00 " "{}" \;
